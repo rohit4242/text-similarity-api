@@ -1,4 +1,4 @@
-import "@/styles/globals.css"
+import "@/Styles/globals.css"
 import { Inter } from 'next/font/google'
 import Navbar from '@/components/NavBar'
 import { Toaster } from '@/components/ui/Toast'

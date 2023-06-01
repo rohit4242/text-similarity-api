@@ -1,4 +1,4 @@
-import { getServerSession } from 'next-auth'
+import { getServerSession } from 'next-auth/next'
 import Link from 'next/link'
 import { ThemeToggle } from './ThemeToggle'
 import { buttonVariants } from './ui/Button'

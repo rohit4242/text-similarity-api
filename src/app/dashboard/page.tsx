@@ -2,13 +2,13 @@ import ApiDashboard from '@/components/ApiDashboard'
 import RequestApiKey from '@/components/RequestApiKey'
 import { authOptions } from '@/lib/auth'
 import { db } from '@/lib/db'
-import { getServerSession } from 'next-auth'
+import { getServerSession } from 'next-auth/next'
 
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 
 export const metadata: Metadata = {
-  title: 'Similarity API | Dashboard',
+  title: 'Text Similarity API | Dashboard',
   description: 'Free & open-source text similarity API',
 }
 
